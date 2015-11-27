@@ -1,0 +1,33 @@
+<operators>
+
+<operator
+name = "CostingOperator"
+class = "com.rapidminer.operator.learner.meta.thesis.Costing"
+description = "This describes my Costing1 implementation."
+group = "MyThesis"/>
+
+<operator
+name = "DirectCostSensitiveOperator"
+class = "com.rapidminer.operator.learner.meta.thesis.DirectCostSensitiveClassifier"
+description = "This descirbes my Direct implementation."
+group = "MyThesis"/>
+
+<operator
+name = "MyMetaCostOperator"
+class = "com.rapidminer.operator.learner.meta.thesis.MetaCost"
+description = "This describes my MetaCost implementation."
+group = "MyThesis"/>
+
+<operator
+name = "Thesis Algorithm Performance Evaluator"
+class = "com.rapidminer.operator.learner.meta.thesis.ThesisBinomialClassificationPerformanceEvaluator"
+description = "Evaluates performance of binomial classification cost sensitive learners."
+group = "MyThesis"/>
+
+<operator
+name = "Performance Evaluator"
+class = "com.rapidminer.operator.learner.meta.thesis.PerformanceEvaluator"
+description = "Evaluates performance of cost sensitive learners."
+group = "MyThesis"/>
+
+</operators>

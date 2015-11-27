@@ -1,0 +1,16 @@
+<operators>
+
+<operator
+name = "MyMetaCostOperator"
+class = "com.rapidminer.operator.learner.meta.thesis.MetaCost"
+description = "This describes my MetaCost implementation."
+group = "MyThesis"/>
+
+<operator
+name = "MyCostingOperator"
+class = "com.rapidminer.operator.learner.meta.thesis.AdaBoost"
+description = "This describes my MetaCost implementation."
+deprecation = "Please use the default preprocessing instead ."
+group = "MyThesis"/>
+
+</operators>
